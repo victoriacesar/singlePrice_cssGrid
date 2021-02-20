@@ -124,12 +124,13 @@ footer{
 /*MEDIA QUERIES--------------------*/
 @media (min-width: 1200px){    
     .container{
-        position: absolute;
-        left: 10%;
-        top: 10%;
+        margin-top: 6rem;
     }
-
+    
     .box{
+        margin-top: 3rem;
+        align-self: center;
+        width: 660px;
         display: grid;
         grid-template-areas: "join" "info";
         grid-template-columns: auto;
